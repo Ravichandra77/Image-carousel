@@ -16,6 +16,25 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
+  background: radial-gradient(circle, #020024 0%, #a75a78 48%, #02061c 100%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-wrapper .page-heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.page-wrapper .page-heading .main-heading {
+  font-style: italic;
+}
+
+.page-wrapper .page-heading .text-big {
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 .carousel-wrapper {
